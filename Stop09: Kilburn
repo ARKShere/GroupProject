@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+	<style type="text/css">
+		header{
+			text-align: left;
+		    background-size: cover;
+      		color: black;
+		}
+		body{
+  			text-align: center;
+  			background: white;
+  			color: black;
+ 			font-family: helvetica;
+ 			line-height: 50px;
+ 			font-size: 20px;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<!--<img src=ASK GIRLS IF THEY'VE GOT A PHOTO WE CAN USE>-->
+<h1>
+	Kilburn
+</h1>
+	</header>
+<p>
+	<ul>
+		<li>COFFEE:</li>
+		<li>COFFEE:</li>
+		<li>COFFEE:</li>
+		<li>ALCOHOL: The Priory Tavern, http://www.priorytavern.com/</li>
+		<li>ALCOHOL:</li>
+		<li>ALCOHOL:</li>
+		<li>FOOD:</li>
+		<li>FOOD:</li>
+		<li>FOOD:</li>
+	</ul>
+</p>
+
+</body>
+</html>
