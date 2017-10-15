@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style type="text/css">
+		header{
+			text-align: center;
+		  background-size: cover;
+      color: black;
+		}
+		body{
+  			text-align: center;
+  			background: white;
+  			color: black;
+ 		    font-family: helvetica;
+ 			  line-height: 50px;
+ 			  font-size: 20px;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<!--<img src=ASK GIRLS IF THEY'VE GOT A PHOTO WE CAN USE>-->
+<h1>
+	About us
+</h1>
+	</header>
+<p>
+	At C.A.F. (Coffee.Alcohol.Food) we are foodies at heart with a deep passion for flavour and convenience.<br>
+If you're looking for the hottest indie places to eat and drink in London, you've come to the right place.<br>
+We bring to you our recommended sites across the London Jubilee line starting with x through to x,<br>
+and we're just getting started, so <strong> watch this space!</strong><br>
+
+For suggestions on where to score out next, please feel free to contact us and let us know.<br>
+
+Happy eating and drinking!<br>
+
+<em>Team C.A.F.</em>
+</p>
+
+</body>
+</html>
