@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+  <title>Welcome to C.A.F.</title>
+        <link href="IndexCSS.css" type="text/css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+        <body style="background-color: black">
+</head>
+
+<body>
+
+	<ul class='nav'>
+        <li><a href="#explanation">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#blog_gallery">Blog/Gallery</a></li>
+    </ul>
+
+<img src="IndexLogoWithoutBackground.png" height=722px width=1024px>
+
+	<div id="ToggleLine"> 
+		<h1>Jubilee Line Map</h1>
+        <p><span class="stop"></span>Stanmore</p>
+        <p><span class="stop"></span>Canons Park</p>
+        <p><span class="stop"></span>Queensbury</p>
+        <p><span class="stop"></span>Kingsbury</p>
+        <p><span class="interchange"></span>Wembley Park</p>
+        <p><span class="interchange"></span>Neasden</p>
+        <p><span class="stop"></span>Dollis Hill</p>
+        <p><span class="interchange"></span>Willesden Green</p>
+        <p><span class="stop"></span>Kilburn</p>
+        <p><span class="stop"></span>West Hampstead</p>
+        <p><span class="interchange"></span>Finchley Road</p>
+        <p><span class="stop"></span>Swiss Cottage</p>
+        <p><span class="stop"></span>St. John's Wood</p>
+        <p><span class="interchange"></span>Baker Street</p>
+        <p><span class="interchange"></span>Bond Street</p>
+        <p><span class="interchange"></span>Green Park</p>
+        <p><span class="interchange"></span>Westminster</p>
+        <p><span class="interchange"></span>Waterloo</p>
+        <p><span class="stop"></span>Southwark</p>
+        <p><span class="interchange"></span>London Bridge</p>
+        <p><span class="stop"></span>Bermondsey</p>
+        <p><span class="stop"></span>Canada Water</p>
+        <p><span class="stop"></span>Canary Wharf</p>
+        <p><span class="stop"></span>North Greenwich</p>
+        <p><span class="stop"></span>Canning Town</p>
+        <p><span class="interchange"></span>West Ham</p>
+        <p><span class="interchange"></span>Stratford</p>
+    </div>
+
+    <div id="social-buttons">
+      <button class='btn-twitter btn-lg'>Twitter</button>
+      <button class='btn-facebook btn-lg'>Facebook</button>
+      <button class='btn-pinterest btn-lg'>Pinterest</button>
+    </div>
+  </div>
+
+
+</body>
+
+<script>
+	$( "IndexHTML.html" ).click(function(slide) {
+  	$( "#ToggleLine" ).toggle( "slide" )
+	});
+</script>
+
+</html>
