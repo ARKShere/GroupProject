@@ -5,3 +5,89 @@ body {
   padding: 3rem 1.5rem;
   text-align: center;
 }
+
+<style>
+
+* {
+  text-align: center;
+  color: black;
+}
+
+p {
+  border-left: 7px solid gray;
+  padding-left: 10px;
+  margin-left: 50px;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-right: 0;
+  position: relative;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 30px; 
+  color: black;
+}
+
+ul.nav li {
+  display: inline;
+  padding: 12px;
+  margin: 0px 300px 0px 0px;
+  background-color: white;
+}
+    
+ul.nav a {
+  color: black;
+}
+
+.stop {
+  position: absolute;
+  left:-10px;
+  color: gray;
+  background: #BDBDBD;
+  padding: 5px;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+
+.interchange {
+  position: absolute;
+  left:-10px;
+  color: white;
+  background: white;
+  padding: 5px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.interchange:hover {
+  background: red;
+}
+
+.stop:hover {
+  background: red;
+}
+
+button.btn.btn-outline-success.my-2.my-sm-0 {
+	color: #fff;
+	background-color: #343a40;
+	border-color: #fff
+}
+
+.btn-outline-success:not([disabled]):not(.disabled).active, .btn-outline-success:not([disabled]):not(.disabled):active, .show>.btn-outline-success.dropdown-toggle {
+	color: #fff;
+	background-color: #000;
+	border-color: #fff
+}
+.btn-outline-success.focus, .btn-outline-success:focus {
+	color: #fff;
+	background-color: #000;
+	border-color: #fff
+}
+
+.btn-outline-success:hover {
+	color: #fff;
+	background-color: #000;
+	border-color: #fff
+}
+
+
+</style>
