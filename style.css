@@ -6,8 +6,6 @@ body {
   text-align: center;
 }
 
-<style>
-
 * {
   text-align: center;
   color: black;
@@ -137,5 +135,10 @@ ul.nav a {
   display: none;
 }
 
-
-</style>
+#ToggleButton {
+  border: solid black 10px;
+  padding: 40px;
+  display: inline-block;
+  position: absolute;
+  font-size: 30px;
+}
