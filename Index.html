@@ -64,7 +64,8 @@
 
       <img src="IndexLogoWithoutBackground.png" height=722px width=1024px>
 
-        <div id="ToggleLine"> 
+<button id="ToggleLine">Jubilee Line Interactive Map</button>
+	<div id="JubileeLineButton"> 
           <h1>Jubilee Line Map</h1>
               <p><span class="stop"></span>Stanmore</p>
               <p><span class="stop"></span>Canons Park</p>
@@ -114,10 +115,18 @@
     <script src="./bootstrap/assets/js/vendor/popper.min.js"></script>
     <script src="./bootstrap/dist/js/bootstrap.min.js"></script>
   <script>
-  	$( "IndexHTML.html" ).click(function(slide) {
-    	$( "#ToggleLine" ).toggle( "slide" )
-  	});
-  </script>
+
+<script>
+$(document).ready(function(){
+ 
+  $("#ToggleLine")
+  .button()
+  .click(function(){
+   
+      $("#JubileeLineButton").toggle("slide");
+  });
+</script>
+  
 </footer>
 </html>
 
