@@ -1,8 +1,10 @@
-<style>
-
 * {
   text-align: center;
   color: white;
+}
+
+#ToggleButton {
+  color: black;
 }
 
 p {
@@ -14,8 +16,8 @@ p {
   margin-right: 0;
   position: relative;
   font-style: italic;
-  font-size: 20px;
-  line-height: 30px; 
+  font-size: 25px;
+  line-height: 40px; 
   color:white;
 }
 
@@ -58,4 +60,10 @@ ul.nav a {
   background: red;
 }
 
-</style>
+#ToggleLine {
+  display: none;
+}
+
+body {
+  background: black;
+}
