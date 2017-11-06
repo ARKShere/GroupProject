@@ -14,6 +14,20 @@
 
     <!-- Custom styles for this template -->
     <link href="style.css" rel="stylesheet">
+	  
+ <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <script>
+ 	$( document ).ready(function() {
+    $("#ToggleButton").click(function() {
+ $("#ToggleLine").toggle();
+});
+});
+ </script>
+	  
   </head>
 
   <body>
@@ -62,10 +76,10 @@
       </div>
       <body>
 
-      <img src="IndexLogoWithoutBackground.png" height=722px width=1024px>
+      <img src="IndexLogoWithoutBackground.png" style="width:100%;">
 
-<button id="ToggleLine">Jubilee Line Interactive Map</button>
-	<div id="JubileeLineButton"> 
+<button class="btn btn-default" id="ToggleButton" data-toggle="main-container">Jubilee Line Interactive Map</button>
+	<div id="ToggleLine"> 
           <h1>Jubilee Line Map</h1>
               <p><span class="stop"></span>Stanmore</p>
               <p><span class="stop"></span>Canons Park</p>
