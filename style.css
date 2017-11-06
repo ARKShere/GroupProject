@@ -136,9 +136,8 @@ ul.nav a {
 }
 
 #ToggleButton {
-  border: solid black 4px;
+  border: solid black 1px;
   padding: 10px;
   display: inline-block;
-  position: absolute;
   font-size: 20px;
 }
