@@ -130,15 +130,10 @@
     <script src="./bootstrap/dist/js/bootstrap.min.js"></script>
   <script>
 
-<script>
-$(document).ready(function(){
- 
-  $("#ToggleLine")
-  .button()
-  .click(function(){
-   
-      $("#JubileeLineButton").toggle("slide");
-  });
+<script type="text/javascript">
+$(".main-container.collapse").on('shown.bs.collapse', function () {    
+       $(".main-container.collapse").not($(this)).collapse('hide');
+});
 </script>
   
 </footer>
