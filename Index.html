@@ -7,26 +7,13 @@
     <meta name="author" content="">
     <link rel="icon" href="./Images/favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>CAF Homepage</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="style.css" rel="stylesheet">
-	  
- <script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
- <script>
- 	$( document ).ready(function() {
-    $("#ToggleButton").click(function() {
- $("#ToggleLine").toggle();
-});
-});
- </script>
+    <link href="style.css" type="text/css" rel="stylesheet">
 	  
   </head>
 
@@ -75,13 +62,12 @@
         <p class="lead"><em>Catering for all your <strong>indie coffee</strong>, <strong>alcohol</strong>, and <strong>foodie</strong> needs along the <strong>Jubilee Line</strong>!</em></p>
       </div>
       <body>
-
-      <img src="IndexLogoWithoutBackground.png" style="width:100%;">
+	      
 
 <button class="btn btn-default" id="ToggleButton" data-toggle="main-container">Jubilee Line Interactive Map</button>
-	<div id="ToggleLine"> 
-          <h1>Jubilee Line Map</h1>
-		<h2>Click on the individual stop names to be taken to a page that shows excellent coffee, alcohol, and food vendors around each station!</h2>
+
+	<div id="ToggleLine">
+		<br><h4><strong>Click on the individual stop names to be taken to a page that shows excellent coffee, alcohol, and food vendors around each station!</strong></h4>
               <p><span class="stop"></span>Stanmore</p>
               <p><span class="stop"></span>Canons Park</p>
               <p><span class="stop"></span>Queensbury</p>
@@ -110,7 +96,10 @@
               <p><span class="interchange"></span>West Ham</p>
               <p><span class="interchange"></span>Stratford</p>
           </div>
+	      
 
+      <img src="IndexLogoWithoutBackground.png" style="width:90%;">
+	      
           <div id="social-buttons">
             <button class='btn-twitter btn-lg'>Twitter</button>
             <button class='btn-facebook btn-lg'>Facebook</button>
@@ -139,6 +128,19 @@ $( document ).ready(function() {
     <script src="./bootstrap/assets/js/vendor/popper.min.js"></script>
     <script src="./bootstrap/dist/js/bootstrap.min.js"></script>
   
+ <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <script>
+ 	$( document ).ready(function() {
+    $("#ToggleButton").click(function() {
+ $("#ToggleLine").toggle();
+});
+});
+ </script>
+	
 </footer>
 </html>
 

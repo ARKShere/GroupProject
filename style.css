@@ -6,8 +6,6 @@ body {
   text-align: center;
 }
 
-<style>
-
 * {
   text-align: center;
   color: black;
@@ -22,8 +20,8 @@ p {
   margin-right: 0;
   position: relative;
   font-style: italic;
-  font-size: 20px;
-  line-height: 30px; 
+  font-size: 25px;
+  line-height: 40px; 
   color: black;
 }
 
@@ -89,5 +87,57 @@ button.btn.btn-outline-success.my-2.my-sm-0 {
 	border-color: #fff
 }
 
+#ToggleButton {
+  color: black;
+}
 
-</style>
+
+ul.nav li {
+  display: inline;
+  padding: 12px;
+  margin: 0px 300px 0px 0px;
+  background-color: white;
+}
+    
+ul.nav a {
+  color: black;
+}
+
+.stop {
+  position: absolute;
+  left:-10px;
+  color: gray;
+  background: #BDBDBD;
+  padding: 5px;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+
+.interchange {
+  position: absolute;
+  left:-10px;
+  color: white;
+  background: white;
+  padding: 5px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.interchange:hover {
+  background: red;
+}
+
+.stop:hover {
+  background: red;
+}
+
+#ToggleLine {
+  display: none;
+}
+
+#ToggleButton {
+  border: solid black 1px;
+  padding: 10px;
+  display: inline-block;
+  font-size: 20px;
+}
