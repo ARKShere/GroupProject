@@ -1,45 +1,90 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
 
-<head>
-	<style type="text/css">
-		header{
-			text-align: left;
-		    background-size: cover;
-      		color: black;
-		}
-		body{
-  			text-align: center;
-  			background: white;
-  			color: black;
- 			font-family: helvetica;
- 			line-height: 50px;
- 			font-size: 20px;
-		}
-	</style>
-</head>
+    <title>C.A.F. - Finchley Road</title>
 
-<body>
-	<header>
-		<img src="../Header.jpg" alt="Jubilee Header Image">
-		<!--<img src=ASK GIRLS IF THEY'VE GOT A PHOTO WE CAN USE>-->
-<h1>
-	Finchley Road
-</h1>
-	</header>
-<p>
-	<ul>
-		<li>COFFEE: Remon Coffee House,www.tripadvisor.co.uk/Restaurant_Review-g186338-d6427970-Reviews-Remon_Coffee_House-London_England.html</li>
-		<li>COFFEE:</li>
-		<li>COFFEE:</li>
-		<li>ALCOHOL: The Gallery, http://www.ilovethegallery.com/</li>
-		<li>ALCOHOL:</li>
-		<li>ALCOHOL:</li>
-		<li>FOOD: Fiddie's Italian Kitchen, http://fiddiesitaliankitchen.com/</li>
-		<li>FOOD:</li>
-		<li>FOOD:</li>
-	</ul>
-</p>
+    <!-- Bootstrap core CSS -->
+    <link href="./bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
-</body>
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">C.A.F.</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="Index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Coffee</a>
+              <a class="dropdown-item" href="#">Alcohol</a>
+              <a class="dropdown-item" href="#">Food</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Social.html">Blog</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <main role="main" class="container">
+
+      <div class="starter-template">
+        <h1>Finchley Road</h1>
+		<table style="width:100%; margin-top:40px;">
+			<tbody>
+				<tr>
+					<th>COFFEE</th>
+					<th>ALCOHOL</th>
+					<th>FOOD</th>
+				</tr>
+				<tr>
+					<td><a href="www.tripadvisor.co.uk/Restaurant_Review-g186338-d6427970-Reviews-Remon_Coffee_House-London_England.html">Remon Coffee House</a><img src="./Images/Finchley Road - Remon.jpg" alt="Remon Coffee" class="table-image" height="100%;" width="auto;"></td>
+					<td><a href="http://www.ilovethegallery.com/">The Gallery</a><img src="./Images/Finchley Road - The Gallery.jpg" alt="The Gallery" class="table-image" height="100%;" width="auto;"></td>
+					<td><a href="http://fiddiesitaliankitchen.com/">Fiddie's Italian Kitchen</a><img src="./Images/Finchley Road - Fiddie's Italian Kitchen 2.jpg" alt="Fiddie's Italian" class="table-image" height="100%;" width="auto;"></td> 
+				</tr>
+			</tbody>
+		</table>
+			
+
+    </main><!-- /.container -->
+
+    <footer>
+    	<img src="./Images/skyline.jpg" alt="skyline" height="100%" width="100%">
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="/bootstrap/assets/js/vendor/popper.min.js"></script>
+    <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+  	</footer>
+  </body>
 </html>

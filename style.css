@@ -141,3 +141,9 @@ ul.nav a {
   display: inline-block;
   font-size: 20px;
 }
+
+.table-image {
+  max-width: 100%; 
+  display:block; 
+  height: auto;
+}
